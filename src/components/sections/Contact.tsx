@@ -29,15 +29,34 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    const subject = `Portfolio Message from ${form.name}`;
-    const body = `Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`;
-
-    // Open default email client
-    window.location.href = `mailto:${config.html.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    
-    setLoading(false);
-    setForm(INITIAL_STATE);
-    alert("Your email client has been opened to complete sending the message.");
+    fetch(`https://formsubmit.co/ajax/${config.html.email}`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({
+        name: form.name,
+        email: form.email,
+        message: form.message,
+      }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        setLoading(false);
+        if (data.success) {
+          alert("Thank you. I will get back to you as soon as possible.");
+          setForm(INITIAL_STATE);
+        } else {
+          console.error(data);
+          alert("Something went wrong. Please try again.");
+        }
+      })
+      .catch((error) => {
+        setLoading(false);
+        console.error(error);
+        alert("Something went wrong. Please try again.");
+      });
   };
 
   return (
