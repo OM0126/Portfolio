@@ -12,26 +12,22 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  python,
+  bash,
+  cloudflare,
+  kubernetes,
+  jenkins,
+  nginx,
+  ansible,
+  mysql,
+  gitlabci,
+  githubactions,
+  linux,
+  intern,
+  homeCloudServer,
+  gamingSystemMonitor,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -51,129 +47,106 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Cloud & DevOps Engineer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Linux Systems Builder",
+    icon: web,
+  },
+  {
+    title: "Python Developer",
     icon: creator,
+  },
+  {
+    title: "Infrastructure Automator",
+    icon: mobile,
   },
 ];
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Bash",
+    icon: bash,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Docker",
+    icon: docker,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Kubernetes",
+    icon: kubernetes,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Linux",
+    icon: linux,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Nginx",
+    icon: nginx,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Cloudflare",
+    icon: cloudflare,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Ansible",
+    icon: ansible,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Jenkins",
+    icon: jenkins,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MySQL",
+    icon: mysql,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "GitHub Actions",
+    icon: githubactions,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "GitLab CI",
+    icon: gitlabci,
   },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Co-Founder & Web Developer",
+    companyName: "NESTFIX (Home Services Platform)",
+    icon: web,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Co-founded NESTFIX, a platform designed to connect users with trusted professionals for daily home services such as cleaning, maintenance, and basic household tasks",
+      "Developed the web application using HTML, CSS, JavaScript, and Node.js, focusing on performance and usability",
+      "Built core features including user interface, service listings, and request handling system",
+      "Designed backend logic for managing user requests and service workflows",
+      "Worked on structuring the platform for scalability and real-world usage",
+      "Faced challenges in user acquisition, execution, and scaling operations, leading to project discontinuation",
+      "Gained practical experience in full-stack development, product building, and startup execution",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    title: "Intern — AutoCAD & JavaScript",
+    companyName: "Compactology Innovations LLP",
+    icon: intern,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed mechanical components using AutoCAD, converting concepts into accurate technical drawings for real-world use",
+      "Developed and contributed to JavaScript-based tools used in internal workflows",
+      "Identified and helped resolve a long-standing technical issue, improving workflow efficiency",
+      "Collaborated with team members to debug problems and deliver solutions in a production environment",
     ],
   },
 ];
@@ -181,93 +154,64 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "OM has always been curious about how systems work at a deeper level. I’ve seen him take interest in Linux and Unix environments and try things on his own instead of just following tutorials. His home cloud setup shows that he likes to learn by actually building things, which is a good sign for someone going into systems and DevOps.",
+    name: "Rajinikanth",
+    designation: "Senior Engineer (Unix/Linux)",
+    company: "Infosys",
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "OM worked with us during his internship at Compactology, and one thing that stood out was his problem-solving approach. He helped us resolve an issue that we had been facing for quite some time, and he handled it with patience and logical thinking. He learns quickly and is not afraid to take ownership when something needs to be fixed.",
+    name: "Anjali",
+    designation: "CEO",
+    company: "Compactology Innovations LLP",
+    image: "https://randomuser.me/api/portraits/women/44.jpg",
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Home Cloud Server",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Built a personal self-hosted cloud system from scratch on an old PC. Enabled remote access, file management, and configured Linux server, networking, and storage with a focus on security.",
     tags: [
       {
-        name: "react",
+        name: "linux",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "self-hosted",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "networking",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: homeCloudServer,
+    sourceCodeLink: "https://github.com/OM0126",
   },
   {
-    name: "Job IT",
+    name: "Gaming System Monitor",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A lightweight CLI tool built with Python & Bash that monitors CPU, RAM, and system performance in real time. Optimized for Linux with minimal resource overhead.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "bash",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "linux",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: gamingSystemMonitor,
+    sourceCodeLink: "https://github.com/OM0126",
   },
 ];
 

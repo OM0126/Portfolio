@@ -19,13 +19,28 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import python from "./tech/python.png";
+import bash from "./tech/bash.png";
+import cloudflare from "./tech/cloudflare.png";
+import kubernetes from "./tech/kubernetes.png";
+import jenkins from "./tech/jenkins.svg";
+import nginx from "./tech/nginx.png";
+import ansible from "./tech/ansible.png";
+import mysql from "./tech/mysql.svg";
+import github_tech from "./tech/github.png";
+import gitlab from "./tech/gitlab.png";
+import githubactions from "./tech/githubactions.png";
+import gitlabci from "./tech/gitlabci.png";
+import linux from "./tech/linux.svg";
 
+import intern from "./company/intern.jpeg";
+
+import homeCloudServer from "./home_cloud_server.png";
+import gamingSystemMonitor from "./gaming_system_monitor.png";
+
+import herobg from "./herobg.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -52,10 +67,23 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  python,
+  bash,
+  cloudflare,
+  kubernetes,
+  jenkins,
+  nginx,
+  ansible,
+  mysql,
+  github_tech,
+  gitlab,
+  githubactions,
+  gitlabci,
+  linux,
+  intern,
+  homeCloudServer,
+  gamingSystemMonitor,
+  herobg,
   carrent,
   jobit,
   tripguide,
