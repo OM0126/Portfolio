@@ -121,7 +121,7 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "Co-Founder & Web Developer",
+    title: "Co-Founder",
     companyName: "NESTFIX (Home Services Platform)",
     icon: web,
     iconBg: "#383E56",
@@ -158,7 +158,6 @@ const testimonials: TTestimonial[] = [
     name: "Rajinikanth",
     designation: "Senior Engineer (Unix/Linux)",
     company: "Infosys",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
     testimonial:
@@ -166,7 +165,6 @@ const testimonials: TTestimonial[] = [
     name: "Anjali",
     designation: "CEO",
     company: "Compactology Innovations LLP",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
   },
 ];
 
