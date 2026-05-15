@@ -152,13 +152,7 @@ const experiences: TExperience[] = [
 ];
 
 const testimonials: TTestimonial[] = [
-  {
-    testimonial:
-      "OM has always been curious about how systems work at a deeper level. I’ve seen him take interest in Linux and Unix environments and try things on his own instead of just following tutorials. His home cloud setup shows that he likes to learn by actually building things, which is a good sign for someone going into systems and DevOps.",
-    name: "Rajinikanth",
-    designation: "Senior Engineer (Unix/Linux)",
-    company: "Infosys",
-  },
+
   {
     testimonial:
       "OM worked with us during his internship at Compactology, and one thing that stood out was his problem-solving approach. He helped us resolve an issue that we had been facing for quite some time, and he handled it with patience and logical thinking. He learns quickly and is not afraid to take ownership when something needs to be fixed.",
